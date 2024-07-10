@@ -1,4 +1,4 @@
-import AppLogo from '../../../assets/images/logo.png';
+import AppLogo from '../assets/images/logo.png';
 
 function Navbar() {
     return (

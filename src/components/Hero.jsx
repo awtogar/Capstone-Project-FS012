@@ -1,4 +1,4 @@
-import HeroMain from '../../../assets/images/hero-main.png';
+import HeroMain from '../assets/images/hero-main.png';
 
 function Hero() {
     return (
