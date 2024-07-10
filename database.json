@@ -1,0 +1,55 @@
+{
+  "Jakarta": {
+    "id": 1,
+    "images": "https://example.com/images/jakarta.jpg",
+    "provinsi": "DKI Jakarta",
+    "seni": {
+      "musik": [
+        {
+          "nama": "musik-1",
+          "images": "https://imagesofmusik1.com"
+        },
+        {
+          "nama": "musik-2",
+          "images": "https://imagesofmusik2.com"
+        },
+        {
+          "nama": "musik-3",
+          "images": "https://imagesofmusik3.com"
+        },
+        {
+          "nama": "musik-4",
+          "images": "https://imagesofmusik4.com"
+        }
+      ],
+      "tarian": [
+        {
+          "nama": "tarian-1",
+          "images": "https://imagesoftarian1.com"
+        },
+        {
+          "nama": "tarian-2",
+          "images": "https://imagesoftarian2.com"
+        },
+        {
+          "nama": "tarian-3",
+          "images": "https://imagesoftarian3.com"
+        },
+        {
+          "nama": "tarian-4",
+          "images": "https://imagesoftarian4.com"
+        }
+      ],
+      "adat": [
+        {
+          "nama": "betawi",
+          "images": "https://imagesofbetawi.com"
+        },
+        {
+          "nama": "sunda",
+          "images": "https://imagesofsunda.com"
+        }
+      ]
+    }
+  }
+}
