@@ -1,5 +1,3 @@
-import './navbar.css';
-
 import AppLogo from '../../../assets/images/logo.png';
 
 function Navbar() {

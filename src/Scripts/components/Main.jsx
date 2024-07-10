@@ -1,11 +1,13 @@
-import Hero from "./Hero/Hero";
-import ContentFirst from "./Content/Content-1"
+import Hero from './Hero/Hero';
+import MainSection from './Content/Section-1';
+import SecondSection from './Content/Section-2';
 
 function Main() {
     return (
         <main>
-            <Hero></Hero>
-            <ContentFirst></ContentFirst>
+            <Hero />
+            <MainSection></MainSection>
+            <SecondSection></SecondSection>
         </main>
     );
 }
