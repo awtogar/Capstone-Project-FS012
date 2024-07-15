@@ -1,272 +1,468 @@
 [
   {
-    "id": 1,
-    "image": "https://example.com/image1.jpg",
-    "province": "Aceh",
-    "city": "Banda Aceh",
-    "attraction": "Pantai Lampuuk",
-    "attraction_image": "https://example.com/attraction_image1",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 1,
+        "name": "Bandung",
+        "image": "https://awokawok.com",
+        "description": "Kota kembang yang terkenal dengan keindahan alam dan kulinernya.",
+        "destination": [
+          {
+            "id": 101,
+            "name": "Tangkuban Perahu",
+            "image": "https",
+            "description": "Gunung berapi aktif yang menawarkan pemandangan yang spektakuler.",
+            "address": "Lembang, Bandung, Jawa Barat"
+          },
+          {
+            "id": 102,
+            "name": "Kawah Putih",
+            "image": "https",
+            "description": "Danau kawah dengan air berwarna putih kehijauan.",
+            "address": "Ciwidey, Bandung, Jawa Barat"
+          },
+          {
+            "id": 103,
+            "name": "Trans Studio Bandung",
+            "image": "https",
+            "description": "Taman bermain indoor terbesar di Indonesia.",
+            "address": "Jl. Gatot Subroto No. 289, Bandung, Jawa Barat"
+          },
+          {
+            "id": 104,
+            "name": "Dago Dreampark",
+            "image": "https://awokawok.com",
+            "description": "Taman hiburan dengan berbagai atraksi menarik.",
+            "address": "Jl. Dago Giri Km. 2.2, Bandung, Jawa Barat"
+          },
+          {
+            "id": 105,
+            "name": "Farm House Lembang",
+            "image": "https://awokawok.com",
+            "description": "Tempat wisata bertema Eropa yang populer.",
+            "address": "Jl. Raya Lembang No. 108, Lembang, Bandung, Jawa Barat"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 2,
-    "image": "https://example.com/image2.jpg",
-    "province": "Sumatera Utara",
-    "city": "Medan",
-    "attraction": "Danau Toba",
-    "attraction_image": "https://example.com/attraction_image2",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 2,
+        "name": "Yogyakarta",
+        "image": "https://awokawok.com",
+        "description": "Kota budaya yang kaya dengan warisan sejarah dan seni.",
+        "destination": [
+          {
+            "id": 201,
+            "name": "Candi Borobudur",
+            "image": "https://awokawok.com",
+            "description": "Candi Buddha terbesar di dunia dan situs warisan dunia UNESCO.",
+            "address": "Magelang, Jawa Tengah"
+          },
+          {
+            "id": 202,
+            "name": "Candi Prambanan",
+            "description": "Kompleks candi Hindu terbesar di Indonesia.",
+            "address": "Jl. Raya Solo - Yogyakarta No.16, Prambanan, Sleman, Yogyakarta"
+          },
+          {
+            "id": 203,
+            "name": "Malioboro",
+            "image": "https://awokawok.com",
+            "description": "Jalan terkenal untuk berbelanja dan menikmati suasana kota.",
+            "address": "Jl. Malioboro, Yogyakarta"
+          },
+          {
+            "id": 204,
+            "name": "Keraton Yogyakarta",
+            "image": "https://awokawok.com",
+            "description": "Istana kerajaan yang masih digunakan oleh Sultan Yogyakarta.",
+            "address": "Jl. Rotowijayan Blok No. 1, Panembahan, Kraton, Yogyakarta"
+          },
+          {
+            "id": 205,
+            "name": "Taman Sari",
+            "image": "https://awokawok.com",
+            "description": "Kompleks istana air bekas taman kerajaan.",
+            "address": "Jl. Tamanan, Patehan, Kraton, Yogyakarta"
+          },
+          {
+            "id": 206,
+            "name": "Pantai Parangtritis",
+            "image": "https://awokawok.com",
+            "description": "Pantai terkenal dengan pemandangan matahari terbenam yang indah.",
+            "address": "Parangtritis, Kretek, Bantul, Yogyakarta"
+          },
+          {
+            "id": 207,
+            "name": "Gunung Merapi",
+            "image": "https://awokawok.com",
+            "description": "Gunung berapi aktif dengan pemandangan alam yang menakjubkan.",
+            "address": "Cangkringan, Sleman, Yogyakarta"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 3,
-    "image": "https://example.com/image3.jpg",
-    "province": "Sumatera Barat",
-    "city": "Bukittinggi",
-    "attraction": "Jam Gadang",
-    "attraction_image": "https://example.com/attraction_image3",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 3,
+        "name": "Jakarta",
+        "image": "https://awokawok.com",
+        "description": "Ibu kota Indonesia yang menjadi pusat bisnis dan pemerintahan.",
+        "destination": [
+          {
+            "id": 301,
+            "name": "Monas",
+            "image": "https://awokawok.com",
+            "description": "Monumen Nasional yang menjadi simbol kemerdekaan Indonesia.",
+            "address": "Jl. Medan Merdeka, Jakarta Pusat"
+          },
+          {
+            "id": 302,
+            "name": "Taman Mini Indonesia Indah",
+            "image": "https://awokawok.com",
+            "description": "Taman rekreasi yang menampilkan kebudayaan Indonesia.",
+            "address": "Jakarta Timur"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 4,
-    "image": "https://example.com/image4.jpg",
-    "province": "Riau",
-    "city": "Tanjung Pinang",
-    "attraction": "Pulau Bintan",
-    "attraction_image": "https://example.com/attraction_image4",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 4,
+        "name": "Surabaya",
+        "image": "https://awokawok.com",
+        "description": "Kota pahlawan dengan sejarah perjuangan yang kental.",
+        "destination": [
+          {
+            "id": 401,
+            "name": "Tugu Pahlawan",
+            "image": "https://awokawok.com",
+            "description": "Monumen yang dibangun untuk mengenang perjuangan arek-arek Suroboyo.",
+            "address": "Jl. Pahlawan, Surabaya"
+          },
+          {
+            "id": 402,
+            "name": "House of Sampoerna",
+            "image": "https://awokawok.com",
+            "description": "Museum yang menampilkan sejarah rokok kretek di Indonesia.",
+            "address": "Jl. Taman Sampoerna No.6, Surabaya"
+          },
+          {
+            "id": 403,
+            "name": "Ciputra Waterpark",
+            "image": "https://awokawok.com",
+            "description": "Taman bermain air terbesar di Surabaya.",
+            "address": "Jl. Citraland Surabaya"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 5,
-    "image": "https://example.com/image5.jpg",
-    "province": "Kepulauan Riau",
-    "city": "Bintan",
-    "attraction": "Lagoi Bay",
-    "attraction_image": "https://example.com/attraction_image5",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 5,
+        "name": "Medan",
+        "image": "https://awokawok.com",
+        "description": "Kota terbesar di Sumatera Utara dengan keragaman budaya yang kaya.",
+        "destination": [
+          {
+            "id": 501,
+            "name": "Istana Maimun",
+            "image": "https://awokawok.com",
+            "description": "Istana kerajaan yang menjadi ikon kota Medan.",
+            "address": "Jl. Brigjen Katamso, Medan"
+          },
+          {
+            "id": 502,
+            "name": "Masjid Raya Medan",
+            "image": "https://awokawok.com",
+            "description": "Masjid besar dengan arsitektur yang megah.",
+            "address": "Jl. Sisingamangaraja, Medan"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 6,
-    "image": "https://example.com/image6.jpg",
-    "province": "Jambi",
-    "city": "Jambi",
-    "attraction": "Gunung Kerinci",
-    "attraction_image": "https://example.com/attraction_image6",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 6,
+        "name": "Bali",
+        "image": "https://awokawok.com",
+        "description": "Pulau Dewata yang terkenal dengan pantai dan budayanya.",
+        "destination": [
+          {
+            "id": 601,
+            "name": "Pantai Kuta",
+            "image": "https://awokawok.com",
+            "description": "Pantai yang terkenal dengan pasir putih dan ombak yang cocok untuk berselancar.",
+            "address": "Kuta, Bali"
+          },
+          {
+            "id": 602,
+            "name": "Ubud",
+            "image": "https://awokawok.com",
+            "description": "Pusat seni dan budaya dengan pemandangan sawah yang indah.",
+            "address": "Ubud, Bali"
+          },
+          {
+            "id": 603,
+            "name": "Tanah Lot",
+            "image": "https://awokawok.com",
+            "description": "Pura di atas batu karang yang menjadi ikon Bali.",
+            "address": "Tabanan, Bali"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 7,
-    "image": "https://example.com/image7.jpg",
-    "province": "Sumatera Selatan",
-    "city": "Palembang",
-    "attraction": "Pulau Kemaro",
-    "attraction_image": "https://example.com/attraction_image7",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 7,
+        "name": "Semarang",
+        "image": "https://awokawok.com",
+        "description": "Kota pelabuhan dengan sejarah kolonial yang kaya.",
+        "destination": [
+          {
+            "id": 701,
+            "name": "Lawang Sewu",
+            "image": "https://awokawok.com",
+            "description": "Gedung bersejarah yang terkenal dengan seribu pintu.",
+            "address": "Jl. Pemuda, Semarang"
+          },
+          {
+            "id": 702,
+            "name": "Sam Poo Kong",
+            "image": "https://awokawok.com",
+            "description": "Klenteng bersejarah yang menjadi tempat ziarah.",
+            "address": "Jl. Simongan No.129, Semarang"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 8,
-    "image": "https://example.com/image8.jpg",
-    "province": "Bengkulu",
-    "city": "Bengkulu",
-    "attraction": "Pantai Panjang",
-    "attraction_image": "https://example.com/attraction_image8",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 8,
+        "name": "Makassar",
+        "image": "https://awokawok.com",
+        "description": "Kota pantai yang terkenal dengan kuliner khasnya.",
+        "destination": [
+          {
+            "id": 801,
+            "name": "Pantai Losari",
+            "image": "https://awokawok.com",
+            "description": "Pantai yang menjadi ikon kota Makassar.",
+            "address": "Jl. Penghibur, Makassar"
+          },
+          {
+            "id": 802,
+            "name": "Fort Rotterdam",
+            "image": "https://awokawok.com",
+            "description": "Benteng peninggalan Belanda yang menjadi museum.",
+            "address": "Jl. Ujung Pandang No.1, Makassar"
+          },
+          {
+            "id": 803,
+            "name": "Trans Studio Makassar",
+            "image": "https://awokawok.com",
+            "description": "Taman bermain indoor dengan berbagai wahana.",
+            "address": "Jl. Metro Tanjung Bunga, Makassar"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 9,
-    "image": "https://example.com/image9.jpg",
-    "province": "Lampung",
-    "city": "Bandar Lampung",
-    "attraction": "Pantai Mutun",
-    "attraction_image": "https://example.com/attraction_image9",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 9,
+        "name": "Malang",
+        "image": "https://awokawok.com",
+        "description": "Kota sejuk dengan banyak destinasi wisata alam.",
+        "destination": [
+          {
+            "id": 901,
+            "name": "Jatim Park 2",
+            "image": "https://awokawok.com",
+            "description": "Taman hiburan dan kebun binatang yang populer.",
+            "address": "Jl. Oro-Oro Ombo No.9, Batu, Malang"
+          },
+          {
+            "id": 902,
+            "name": "Coban Rondo",
+            "image": "https://awokawok.com",
+            "description": "Air terjun dengan pemandangan alam yang indah.",
+            "address": "Pujon, Malang"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 10,
-    "image": "https://example.com/image10.jpg",
-    "province": "Bangka Belitung",
-    "city": "Pangkal Pinang",
-    "attraction": "Pantai Tanjung Tinggi",
-    "attraction_image": "https://example.com/attraction_image10",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 10,
+        "name": "Balikpapan",
+        "image": "https://awokawok.com",
+        "description": "Kota minyak dengan pantai yang indah.",
+        "destination": [
+          {
+            "id": 1001,
+            "name": "Pantai Kemala",
+            "image": "https://awokawok.com",
+            "description": "Pantai dengan pasir putih dan air yang jernih.",
+            "address": "Jl. Jend. Sudirman, Balikpapan"
+          },
+          {
+            "id": 1002,
+            "name": "Hutan Mangrove Margomulyo",
+            "image": "https://awokawok.com",
+            "description": "Hutan mangrove yang menjadi habitat berbagai satwa.",
+            "address": "Jl. Soekarno-Hatta, Balikpapan"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 11,
-    "image": "https://example.com/image11.jpg",
-    "province": "Kepulauan Bangka Belitung",
-    "city": "Belitung",
-    "attraction": "Pulau Lengkuas",
-    "attraction_image": "https://example.com/attraction_image11",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 11,
+        "name": "Palembang",
+        "image": "https://awokawok.com",
+        "description": "Kota dengan sejarah panjang sebagai pusat Kerajaan Sriwijaya.",
+        "destination": [
+          {
+            "id": 1101,
+            "name": "Jembatan Ampera",
+            "image": "https://awokawok.com",
+            "description": "Jembatan ikonik yang menjadi simbol kota Palembang.",
+            "address": "Jl. Jenderal Sudirman, Palembang"
+          },
+          {
+            "id": 1102,
+            "name": "Benteng Kuto Besak",
+            "image": "https://awokawok.com",
+            "description": "Benteng bersejarah yang menghadap Sungai Musi.",
+            "address": "Jl. Sultan Mahmud Badaruddin, Palembang"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 12,
-    "image": "https://example.com/image12.jpg",
-    "province": "Banten",
-    "city": "Serang",
-    "attraction": "Pantai Anyer",
-    "attraction_image": "https://example.com/attraction_image12",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 12,
+        "name": "Padang",
+        "image": "https://awokawok.com",
+        "description": "Kota dengan pantai indah dan kuliner lezat.",
+        "destination": [
+          {
+            "id": 1201,
+            "name": "Pantai Air Manis",
+            "image": "https://awokawok.com",
+            "description": "Pantai dengan batu Malin Kundang yang legendaris.",
+            "address": "Padang Selatan, Padang"
+          },
+          {
+            "id": 1202,
+            "name": "Jembatan Siti Nurbaya",
+            "image": "https://awokawok.com",
+            "description": "Jembatan yang menawarkan pemandangan indah terutama di malam hari.",
+            "address": "Jl. Nipah, Padang"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 13,
-    "image": "https://example.com/image13.jpg",
-    "province": "Jakarta",
-    "city": "Jakarta Pusat",
-    "attraction": "Monas",
-    "attraction_image": "https://example.com/attraction_image13",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 13,
+        "name": "Manado",
+        "image": "https://awokawok.com",
+        "description": "Kota di Sulawesi Utara yang terkenal dengan keindahan bawah lautnya.",
+        "destination": [
+          {
+            "id": 1301,
+            "name": "Bunaken",
+            "image": "https://awokawok.com",
+            "description": "Taman laut dengan keanekaragaman biota laut yang luar biasa.",
+            "address": "Pulau Bunaken, Manado"
+          },
+          {
+            "id": 1302,
+            "name": "Danau Tondano",
+            "image": "https://awokawok.com",
+            "description": "Danau vulkanik dengan pemandangan yang memukau.",
+            "address": "Tondano, Minahasa"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 14,
-    "image": "https://example.com/image14.jpg",
-    "province": "Jawa Barat",
-    "city": "Bandung",
-    "attraction": "Tangkuban Perahu",
-    "attraction_image": "https://example.com/attraction_image14",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 14,
+        "name": "Banda Aceh",
+        "image": "https://awokawok.com",
+        "description": "Kota yang memiliki sejarah dan budaya Islam yang kental.",
+        "destination": [
+          {
+            "id": 1401,
+            "name": "Masjid Raya Baiturrahman",
+            "image": "https://awokawok.com",
+            "description": "Masjid besar dengan arsitektur megah yang menjadi ikon kota.",
+            "address": "Jl. Mohd Jam No.1, Banda Aceh"
+          },
+          {
+            "id": 1402,
+            "name": "Museum Tsunami Aceh",
+            "image": "https://awokawok.com",
+            "description": "Museum yang dibangun untuk mengenang bencana tsunami 2004.",
+            "address": "Jl. Iskandar Muda No.3, Banda Aceh"
+          }
+        ]
+      }
+    ]
   },
   {
-    "id": 15,
-    "image": "https://example.com/image15.jpg",
-    "province": "Jawa Tengah",
-    "city": "Magelang",
-    "attraction": "Candi Borobudur",
-    "attraction_image": "https://example.com/attraction_image15",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 16,
-    "image": "https://example.com/image16.jpg",
-    "province": "DI Yogyakarta",
-    "city": "Yogyakarta",
-    "attraction": "Malioboro",
-    "attraction_image": "https://example.com/attraction_image16",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 17,
-    "image": "https://example.com/image17.jpg",
-    "province": "Jawa Timur",
-    "city": "Malang",
-    "attraction": "Gunung Bromo",
-    "attraction_image": "https://example.com/attraction_image17",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 18,
-    "image": "https://example.com/image18.jpg",
-    "province": "Bali",
-    "city": "Denpasar",
-    "attraction": "Pantai Kuta",
-    "attraction_image": "https://example.com/attraction_image18",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 19,
-    "image": "https://example.com/image19.jpg",
-    "province": "Nusa Tenggara Barat",
-    "city": "Mataram",
-    "attraction": "Gili Trawangan",
-    "attraction_image": "https://example.com/attraction_image19",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 20,
-    "image": "https://example.com/image20.jpg",
-    "province": "Nusa Tenggara Timur",
-    "city": "Labuan Bajo",
-    "attraction": "Pulau Komodo",
-    "attraction_image": "https://example.com/attraction_image20",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 21,
-    "image": "https://example.com/image21.jpg",
-    "province": "Kalimantan Barat",
-    "city": "Pontianak",
-    "attraction": "Taman Nasional Betung Kerihun",
-    "attraction_image": "https://example.com/attraction_image21",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 22,
-    "image": "https://example.com/image22.jpg",
-    "province": "Kalimantan Tengah",
-    "city": "Palangka Raya",
-    "attraction": "Taman Nasional Tanjung Puting",
-    "attraction_image": "https://example.com/attraction_image22",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-
-  {
-    "id": 23,
-    "image": "https://example.com/image23.jpg",
-    "province": "Kalimantan Selatan",
-    "city": "Banjarmasin",
-    "attraction": "Pasar Terapung",
-    "attraction_image": "https://example.com/attraction_image23",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 24,
-    "image": "https://example.com/image24.jpg",
-    "province": "Kalimantan Timur",
-    "city": "Berau",
-    "attraction": "Pulau Derawan",
-    "attraction_image": "https://example.com/attraction_image24",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 25,
-    "image": "https://example.com/image25.jpg",
-    "province": "Kalimantan Utara",
-    "city": "Nunukan",
-    "attraction": "Taman Nasional Kayan Mentarang",
-    "attraction_image": "https://example.com/attraction_image25",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 26,
-    "image": "https://example.com/image26.jpg",
-    "province": "Sulawesi Utara",
-    "city": "Manado",
-    "attraction": "Bunaken",
-    "attraction_image": "https://example.com/attraction_image26",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 27,
-    "image": "https://example.com/image27.jpg",
-    "province": "Sulawesi Tengah",
-    "city": "Palu",
-    "attraction": "Togean",
-    "attraction_image": "https://example.com/attraction_image27",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 28,
-    "image": "https://example.com/image28.jpg",
-    "province": "Sulawesi Selatan",
-    "city": "Makassar",
-    "attraction": "Toraja",
-    "attraction_image": "https://example.com/attraction_image28"
-  },
-  {
-    "id": 29,
-    "image": "https://example.com/image29.jpg",
-    "province": "Sulawesi Tenggara",
-    "city": "Wakatobi",
-    "attraction": "Wakatobi",
-    "attraction_image": "https://example.com/attraction_image29",
-    "description": "loremipsumasdasdasdasdasd"
-  },
-  {
-    "id": 30,
-    "image": "https://example.com/image30.jpg",
-    "province": "Sulawesi Barat",
-    "city": "Mamuju",
-    "attraction": "Anjungan Pantai Manakarra",
-    "attraction_image": "https://example.com/attraction_image29",
-    "description": "loremipsumasdasdasdasdasd"
+    "cities": [
+      {
+        "id": 15,
+        "name": "Denpasar",
+        "image": "https://awokawok.com",
+        "description": "Ibu kota Bali yang kaya akan seni dan budaya.",
+        "destination": [
+          {
+            "id": 1501,
+            "name": "Pura Jagatnatha",
+            "image": "https://awokawok.com",
+            "description": "Pura terbesar di Denpasar yang didedikasikan untuk Sang Hyang Widhi.",
+            "address": "Jl. Mayor Wisnu, Denpasar"
+          },
+          {
+            "id": 1502,
+            "name": "Bajra Sandhi",
+            "image": "https://awokawok.com",
+            "description": "Monumen perjuangan rakyat Bali yang megah.",
+            "address": "Jl. Raya Puputan, Renon, Denpasar"
+          }
+        ]
+      }
+    ]
   }
 ]
