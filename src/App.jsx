@@ -1,12 +1,12 @@
-import Navbar from "./components/layout/Navbar"
-import Hero from "./components/layout/Hero"
-import SectionFirst from "./components/sections/SectionFirst"
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import  DestinationsSection from "./components/layout/home/city-list/DestinationCard"
 function App() {
   return (
     <>
     <Navbar />
     <Hero />
-    <SectionFirst/>
+    <DestinationsSection/>
     </>
   )
 }
