@@ -4,7 +4,7 @@ import { getAllCities } from '../../api/data-services';
 
 const CityList = () => {
     const [cities, setCities] = useState([]);
-  
+    // Panggil data dari api
     useEffect(() => {
       const fetchCities = async () => {
         try {

@@ -1,7 +1,7 @@
 import SectionBg from './assets/images/images-1.webp';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import CityList from './components/cardlist/CityList'; // Correct import statement
+import CityList from './components/List/CityList'; // Correct import statement
 
 function App() {
   return (
