@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
       <div className="min-h-screen bg-gray-100">
         <section id="section-1" className="relative bg-cover bg-center h-96 lg:h-72" style={{ backgroundImage: `url(${SectionBg})` }}>
           <div className="container mx-auto flex items-center justify-center h-full">

@@ -34,7 +34,7 @@ const CityList = () => {
             <h2 className="text-2xl lg:text-3xl font-bold">{city.name}</h2>
             <img src={city.image} alt={city.name} className="w-full h-48 object-cover mt-4 mb-4" />
             <p className="text-sm lg:text-base">{city.description}</p>
-            <Link to={`/city/${city.id}`} className="text-blue-500 underline mt-4 block">View Details</Link>
+            <Link to={`/city/${city.id}/detail`} className="detail-button text-blue-500 underline mt-4 block">View Details</Link>
           </div>
         ))}
       </div>

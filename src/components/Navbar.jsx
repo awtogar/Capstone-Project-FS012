@@ -16,7 +16,7 @@ function Navbar() {
                     </div>
                     <ul className="header__menu">
                         <li className="header__menu-item">
-                            <a href="#" className="header__menu-link">Home</a>
+                            <a href="" className="header__menu-link">Home</a>
                         </li>
                         <li className="header__menu-item">
                             <a href="#" className="header__menu-link">Gallery</a>
