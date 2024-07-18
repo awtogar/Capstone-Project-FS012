@@ -1,6 +1,6 @@
-// CityDetail.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { getCityById, getAllDestinationsByCityId } from '../api/data-services';
 
 const CityDetail = () => {
@@ -33,7 +33,7 @@ const CityDetail = () => {
             <h1 className="text-4xl font-bold mb-4">{city.name}</h1>
             <img src={city.image} alt={city.name} className="w-full h-64 object-cover mb-4" />
             <p className="text-lg mb-8">{city.description}</p>
-            <h2 className="text-3xl font-bold mb-4">Destinations</h2>
+            <h2 className="text-3xl font-bold mb-4">Destinations in {city.name}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {destinations.map((destination) => (
                     <div key={destination.id} className="destination-card bg-white p-4 rounded shadow">
@@ -41,6 +41,7 @@ const CityDetail = () => {
                         <img src={destination.image} alt={destination.name} className="w-full h-48 object-cover mb-4" />
                         <p className="text-base">{destination.description}</p>
                         <p className="text-sm text-gray-600 mt-2">{destination.address}</p>
+                        <Link to={`/city/${city.id}/detail/${destination.id}`} className="detail-button text-blue-500 underline mt-4 block">View Details</Link>
                     </div>
                 ))}
             </div>
