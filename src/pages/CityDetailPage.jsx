@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { getCityById, getAllDestinationsByCityId } from '../api/data-services';
 
-const CityDetail = () => {
+const CityDetailPage = () => {
     const { cityId } = useParams();
     const [city, setCity] = useState(null);
     const [destinations, setDestinations] = useState([]);
@@ -35,6 +35,7 @@ const CityDetail = () => {
             <p className="text-lg mb-8">{city.description}</p>
             <h2 className="text-3xl font-bold mb-4">Destinations in {city.name}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {/* get all destination in detail of the city */}
                 {destinations.map((destination) => (
                     <div key={destination.id} className="destination-card bg-white p-4 rounded shadow">
                         <h3 className="text-2xl font-bold mb-2">{destination.name}</h3>
@@ -49,4 +50,4 @@ const CityDetail = () => {
     );
 };
 
-export default CityDetail;
+export default CityDetailPage;
