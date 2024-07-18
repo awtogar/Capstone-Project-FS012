@@ -21,7 +21,7 @@ function Hero() {
                     <p>Explore More!</p>
                 </div>
                 <div className="text-center mt-2">
-                    <a href="#MainContent" className="px-8 py-4 bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-full">Let&apos;s Go</a>
+                    <a href="/city" className="px-8 py-4 bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-full">Let&apos;s Go</a>
                 </div>
             </div>
         </section>

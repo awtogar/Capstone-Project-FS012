@@ -1,4 +1,5 @@
-import AppLogo from '../assets/images/logo.png'
+import { Link } from 'react-router-dom';
+import AppLogo from '../assets/images/logo.png';
 
 function Navbar() {
     return (
@@ -12,20 +13,20 @@ function Navbar() {
                     </div>
                     <div className="header__logo">
                         <img src={AppLogo} alt="App Logo" className="header__logo-image" />
-                        <a href="#" className="header__logo-text">Epic Indonesia</a>
+                        <Link to="/" className="header__logo-text">Epic Indonesia</Link>
                     </div>
                     <ul className="header__menu">
                         <li className="header__menu-item">
-                            <a href="" className="header__menu-link">Home</a>
+                            <Link to="/" className="header__menu-link">Home</Link>
                         </li>
                         <li className="header__menu-item">
-                            <a href="#" className="header__menu-link">Gallery</a>
+                            <Link to="/#Explore" className="header__menu-link">Gallery</Link>
                         </li>
                         <li className="header__menu-item">
-                            <a href="#" className="header__menu-link">Contact</a>
+                            <Link to="/" className="header__menu-link">Contact</Link>
                         </li>
                         <li className="header__menu-item">
-                            <a href="#" className="header__menu-link">About</a>
+                            <Link to="/" className="header__menu-link">About</Link>
                         </li>
                     </ul>
                 </div>
