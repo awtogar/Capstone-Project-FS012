@@ -46,7 +46,7 @@ function App() {
       <Navbar />
       <Hero />
       <div className="min-h-screen bg-gray-100">
-        <section id="section-1" className="relative bg-cover bg-center h-96 " style={{ backgroundImage: `url(${SectionBg})` }}>
+        <section id="section-1" className="relative bg-cover bg-center h-96 w-lvw lg:h-lvh" style={{ backgroundImage: `url(${SectionBg})` }}>
           <div className="container mx-auto flex items-center justify-center h-full">
             <div className="text-center text-white">
               <h1 className="text-4xl font-bold mb-4">Epic Indonesia</h1>

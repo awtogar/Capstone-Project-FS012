@@ -2,7 +2,7 @@ import HeroMain from '../assets/images/hero-main.png';
 
 function Hero() {
     return (
-        <section className="mx-auto flex flex-col md:flex-row md:items-center md:justify-center px-6 md:px-12">
+        <section className="mx-auto flex flex-col md:flex-row md:items-center md:justify-center px-6 md:px-12 lg:h-lvh">
             <img 
                 className="order-1 md:order-2 max-w-xl md:max-w-3xl" 
                 alt="Hero Main" 
