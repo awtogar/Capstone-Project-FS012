@@ -22,7 +22,8 @@ export const getCityById = async (cityId) => {
   try {
     const response = await axios.get(`${BASE_URL}/city/${cityId}`);
     if (response.data.status === "success") {
-      return response.data.data;
+      console.log('Fetched City By ID:', response.data.data.city); // Debugging line
+      return response.data.data.city;
     } else {
       console.error("Error: Failed to fetch city details");
     }
