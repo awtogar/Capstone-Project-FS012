@@ -20,10 +20,10 @@ function Navbar() {
                             <Link to="/" className="header__menu-link">Home</Link>
                         </li>
                         <li className="header__menu-item">
-                            <Link to="/#Explore" className="header__menu-link">Gallery</Link>
+                            <Link to="/#Explore" className="header__menu-link">City List</Link>
                         </li>
                         <li className="header__menu-item">
-                            <Link to="/" className="header__menu-link">Contact</Link>
+                            <Link to="/" className="header__menu-link">Destiantion</Link>
                         </li>
                         <li className="header__menu-item">
                             <Link to="/" className="header__menu-link">About</Link>
