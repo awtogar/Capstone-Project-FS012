@@ -1,12 +1,15 @@
+// data-services.js
 import axios from "axios";
 
 const BASE_URL = "https://be-caps.vercel.app";
 
 export const getAllCities = async () => {
   try {
-    const response = await axios.get(`${BASE_URL}/city`);
+    const url = `${BASE_URL}/city`;
+    console.log(`Fetching from URL: ${url}`);
+    const response = await axios.get(url);
+    console.log(`Response:`, response); // Log Response
     if (response.data.status === "success") {
-      console.log('API Response:', response.data.data); // Debugging line
       return response.data.data;
     } else {
       console.error("Error: Failed to fetch cities");
@@ -20,9 +23,11 @@ export const getAllCities = async () => {
 
 export const getCityById = async (cityId) => {
   try {
-    const response = await axios.get(`${BASE_URL}/city/${cityId}`);
+    const url = `${BASE_URL}/city/${cityId}`;
+    console.log(`Fetching from URL: ${url}`);
+    const response = await axios.get(url);
+    console.log(`Response:`, response); // Log Response
     if (response.data.status === "success") {
-      console.log('Fetched City By ID:', response.data.data.city); // Debugging line
       return response.data.data.city;
     } else {
       console.error("Error: Failed to fetch city details");
@@ -34,7 +39,10 @@ export const getCityById = async (cityId) => {
 
 export const getAllDestinationsByCityId = async (cityId) => {
   try {
-    const response = await axios.get(`${BASE_URL}/city/${cityId}/destination`);
+    const url = `${BASE_URL}/city/${cityId}/destination`;
+    console.log(`Fetching from URL: ${url}`);
+    const response = await axios.get(url);
+    console.log(`Response:`, response); // Log Response
     if (response.data.status === "success") {
       return response.data.data.destinations;
     } else {
@@ -47,7 +55,10 @@ export const getAllDestinationsByCityId = async (cityId) => {
 
 export const getDestinationById = async (cityId, destinationId) => {
   try {
-    const response = await axios.get(`${BASE_URL}/city/${cityId}/destination/${destinationId}`);
+    const url = `${BASE_URL}/city/${cityId}/destination/${destinationId}`;
+    console.log(`Fetching from URL: ${url}`);
+    const response = await axios.get(url);
+    console.log(`Response:`, response); // Log Response
     if (response.data.status === "success") {
       return response.data.data.destination;
     } else {
